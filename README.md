@@ -8,6 +8,8 @@ The webpage used to mimic a restaurant's food menu was built using **React (TS) 
 
 HTTP CRUD
 
+Used Redux createAPI Toolkit to fetchAPI
+
 
 ## Demo Picture
 
