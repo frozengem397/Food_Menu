@@ -1,6 +1,6 @@
 # Project Title
 
-Food Shop
+Food Shop (Full Stack project)
 
 ## Description
 
