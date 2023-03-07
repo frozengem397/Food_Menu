@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\kim_shop_API.props" />
+</Project>
