@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\portfolio\\shop\\kim_shop_API\\kim_shop_API\\kim_shop_API.csproj": {}
+    "D:\\portfolio\\foodmenu-main\\foodmenu-main\\kim_shop_API\\kim_shop_API\\kim_shop_API.csproj": {}
   },
   "projects": {
-    "D:\\portfolio\\shop\\kim_shop_API\\kim_shop_API\\kim_shop_API.csproj": {
+    "D:\\portfolio\\foodmenu-main\\foodmenu-main\\kim_shop_API\\kim_shop_API\\kim_shop_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\portfolio\\shop\\kim_shop_API\\kim_shop_API\\kim_shop_API.csproj",
+        "projectUniqueName": "D:\\portfolio\\foodmenu-main\\foodmenu-main\\kim_shop_API\\kim_shop_API\\kim_shop_API.csproj",
         "projectName": "kim_shop_API",
-        "projectPath": "D:\\portfolio\\shop\\kim_shop_API\\kim_shop_API\\kim_shop_API.csproj",
+        "projectPath": "D:\\portfolio\\foodmenu-main\\foodmenu-main\\kim_shop_API\\kim_shop_API\\kim_shop_API.csproj",
         "packagesPath": "C:\\Users\\Yongfeng Ji\\.nuget\\packages\\",
-        "outputPath": "D:\\portfolio\\shop\\kim_shop_API\\kim_shop_API\\obj\\",
+        "outputPath": "D:\\portfolio\\foodmenu-main\\foodmenu-main\\kim_shop_API\\kim_shop_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
