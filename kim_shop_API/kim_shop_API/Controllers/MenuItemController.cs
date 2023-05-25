@@ -3,6 +3,7 @@ using kim_shop_API.Models;
 using kim_shop_API.Models.Dto;
 using kim_shop_API.Services;
 using kim_shop_API.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -54,6 +55,7 @@ namespace kim_shop_API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = SD.Role_Admin)]
         public async Task<ActionResult<ApiResponse>> CreateMenuItem([FromForm] MenuItemCreateDTO menuItemCreateDTO)
         {
             try
@@ -96,13 +98,14 @@ namespace kim_shop_API.Controllers
 
 
         [HttpPut("{id:int}")]
+        [Authorize(Roles = SD.Role_Admin)]
         public async Task<ActionResult<ApiResponse>> UpdateMenuItem(int id, [FromForm] MenuItemUpdateDTO menuItemUpdateDTO)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    if (menuItemUpdateDTO.File == null || id != menuItemUpdateDTO.Id)
+                    if (menuItemUpdateDTO == null || id != menuItemUpdateDTO.Id)
                     {
                         return BadRequest();
                     }
@@ -146,6 +149,7 @@ namespace kim_shop_API.Controllers
 
         }
         [HttpDelete("{id:int}")]
+        [Authorize(Roles = SD.Role_Admin)]
         public async Task<ActionResult<ApiResponse>> DeleteMenuItem(int id)
         {
             try

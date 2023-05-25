@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAi62JrThklE28iwvOCB/FEAAAAAACAAAAAAAQZgAAAAEAACAAAAD2as/uFPN6I3Ez6/OJpSSIJCFN05e+m0nxS+F975Mz+gAAAAAOgAAAAAIAACAAAAB8HazmD4tirdXT0me3e5dWrpqOdwPbSCHASXzyP4X/8oAAAADMwutg3gGRHquv5XaRtmKjoc1BFU/+eKYhmozIa9yc9h0OukCITcerTUzzz6PPj9oN4jRt0hltCVis3GHv57LoDWR6oLypOexu38uTbgTPVOEw6ZbO2g1Jv+hVqpHlHw+9gAfvmmGPOT+MxeInITvBCL0OFwY8fIgSBuGr6AcowEAAAADac3e24rtsMs6Vs6D5z5CS4jkjBwIBEjRM9vy2bRzEsqhOn1yUwYkEL7M1nVOMJ+mZ93RZejrRDTy/YcB4RVuP</EncryptedPassword>
+    <History>True|2023-05-23T01:45:59.4392845Z;True|2023-05-21T23:48:22.1668940-07:00;True|2023-05-18T14:58:32.1850470-07:00;True|2023-05-14T19:43:29.2701842-07:00;True|2023-04-24T11:43:45.5286830-07:00;True|2023-04-24T11:40:56.7097696-07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultDbConnection">
+      <Value>Server=tcp:react-shop.database.windows.net,1433%3bInitial Catalog=kimshop%3bPersist Security Info=False%3bUser ID=sqladmin%3bPassword=Kimjiyong0725!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
