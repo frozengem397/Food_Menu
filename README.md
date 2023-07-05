@@ -2,7 +2,7 @@
 
 This README provides a brief overview of the Kim Shop API and its endpoints. The API allows users to manage user authentication, menu items, orders, shopping carts, and payments for an online shop.
 
-**_Due to the Azure account issue, I no longer pay for the monthly fee (over 100$), so the link might not be able to be open.(Can still open the page since it was deployed in Github pages, but the API would be working, so it will returns errors.)_**
+**_Due to the Azure account issue, I no longer pay for the monthly fee (over 100$), so the link might not be able to be open.(Can still open the page since it was deployed in Github pages, but the API wouldn't be working, so it will returns errors.)_**
 
 Web Link: https://frozengem397.github.io/KimFood/
 API Link: https://kimshopapi.azurewebsites.net/index.html
